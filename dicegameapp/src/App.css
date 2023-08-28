@@ -1,0 +1,35 @@
+.btn, .btn_2
+{
+    /* width: 16rem; */
+    padding: .7rem 4rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: .4rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight:600 ;
+    margin-top:1.2rem;
+    
+}
+.btn_2{
+    background-color: transparent;
+    border: .1rem solid #000;
+    color: #000;
+    font-weight:600 ;
+    margin-top:1.2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_2:hover{
+    border: .1rem solid #000;
+    color: #fff;
+    background-color: #000;
+}
+.btn:hover
+{
+    border: .1rem solid #000;
+    color: #000;
+    background-color: transparent;
+
+}
